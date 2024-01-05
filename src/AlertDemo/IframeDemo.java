@@ -11,7 +11,7 @@ public class IframeDemo
 {
 	ChromeDriver driver = new ChromeDriver();
 	
-	@BeforeTest
+	/*@BeforeTest
 	public void beforeiframeDemo()
 	{
 		System.setProperty("webdriver.chrome.driver", "C:\\SwatiDocs\\chromedriver-win64\\chromedriver.exe");
@@ -25,8 +25,8 @@ public class IframeDemo
 		Thread.sleep(3000);
 		driver.findElement(By.xpath("//button[@title='Close']")).click();
 	}
-
-	/*public static void main(String[] args) throws InterruptedException
+*/
+	public static void main(String[] args) throws InterruptedException
 	{
 		//launch browser
 		System.setProperty("webdriver.chrome.driver", "C:\\SwatiDocs\\chromedriver-win64\\chromedriver.exe");
@@ -43,6 +43,6 @@ public class IframeDemo
 		//find element 'X' to close the window by xpath
 		driver.findElement(By.xpath("//button[@title='Close']")).click();
 		
-	}*/
+	}
 
 }
